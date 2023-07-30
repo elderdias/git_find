@@ -1,0 +1,98 @@
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;
+    background: #2d333b;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+button:hover {
+    background: #4c5462;
+}
+  
+button:active {
+    transform: scale(0.95);
+}
+  
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+  
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    min-width: 250px;
+    width: 82.5%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+  
+.perfil {
+    display: flex;
+    margin: 40px;
+}
+  
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+}
+
+.profile:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+  
+
+  
+.perfil span {
+    display: block;
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+  
+.perfil h3 {
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+  
+.perfil p {
+    color: #999999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+}
+  
+.repositorio {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}
+  
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+  
+.background {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+  
